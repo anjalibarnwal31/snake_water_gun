@@ -73,7 +73,7 @@ if winning>loosing:
 
 
 elif loosing > winning:
-    print(" you lose!!!")
+    print("!!!you lose!!!")
     print("your points:- " + str(winning))
     print("computer points:- " + str(loosing))
 
