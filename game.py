@@ -3,7 +3,7 @@ a=".......SNAKE/WATER/GUN......."
 print(a.center(100))
 winning=0
 loosing=0
-tie=0
+
 invalid_times=0
 def chosen(comp,user):
     r=True
@@ -52,7 +52,7 @@ for _ in range(n):
          if a==None:
             print("Game tie🤗")
             print(".....................................")
-            tie+=1
+
          elif a==True:
             print("U win🥳🥳")
             print(".....................................")
